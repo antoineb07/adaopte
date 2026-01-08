@@ -5,16 +5,74 @@ const animals: Animal[] = data;
 
 export default function Masonry() {
   return (
-    <div className="inner">
-      {animals.map((animal) => (
-        <div className="box" key={animal.id}>
+    <div className="grid grid-cols-4 gap-4 p-20">
+      <div className="flex flex-col gap-4">
+        <div className="w-80 h-150 overflow-hidden rounded-lg">
           <img
-            src={animal.imageUrl}
-            alt={`Photo de ${animal.name}`}
-            className="w-full h-auto object-cover"
+            src={animals[0].imageUrl}
+            alt=""
+            className="w-full h-full object-cover"
           />
         </div>
-      ))}
+        <div className="w-80 h-80 overflow-hidden rounded-lg">
+          <img
+            src={animals[1].imageUrl}
+            alt="{animals[1].name}"
+            className="w-full h-full object-cover"
+          />
+        </div>
+      </div>
+
+      <div className="flex flex-col gap-4">
+        <div className="w-80 h-80 overflow-hidden rounded-lg">
+          <img
+            src={animals[2].imageUrl}
+            alt="{animals[2].name}"
+            className="w-full h-full object-cover"
+          />
+        </div>
+        <div className=" w-80 h-150 overflow-hidden rounded-lg">
+          <img
+            src={animals[3].imageUrl}
+            alt="{animals[3].name}"
+            className="w-full h-full object-cover"
+          />
+        </div>
+      </div>
+
+      <div className="flex flex-col gap-4">
+        <div className="w-80 h-150 overflow-hidden rounded-lg">
+          <img
+            src={animals[4].imageUrl}
+            alt="{animals[4].name}"
+            className="w-full h-full object-cover"
+          />
+        </div>
+        <div className="w-80 h-80 overflow-hidden rounded-lg">
+          <img
+            src={animals[5].imageUrl}
+            alt="{animals[5].name}"
+            className="w-full h-full object-cover"
+          />
+        </div>
+      </div>
+
+      <div className="flex flex-col gap-4">
+        <div className="w-80 h-80 overflow-hidden rounded-lg">
+          <img
+            src={animals[6].imageUrl}
+            alt="{animals[6].name}"
+            className="w-full h-full object-cover"
+          />
+        </div>
+        <div className="w-80 h-150 overflow-hidden rounded-lg">
+          <img
+            src={animals[7].imageUrl}
+            alt="{animals[7].name}"
+            className="w-full h-full object-cover"
+          />
+        </div>
+      </div>
     </div>
   );
 }
