@@ -1,6 +1,9 @@
+import Footer from "../components/Footer";
+
 function Home() {
     return (
-        <div></div>
+        <Footer>
+        </Footer>
     )
 }
 
