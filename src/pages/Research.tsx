@@ -1,10 +1,14 @@
-
 import Footer from "../components/Footer";
+import NavBare from "../components/navbare";
 
-function Research () {
-    return (
-        <Footer></Footer>
-    )
+function Research() {
+  return (
+    <>
+      <NavBare />
+
+      <Footer />
+    </>
+  );
 }
 
 export default Research;
