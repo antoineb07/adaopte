@@ -1,19 +1,13 @@
 import React from 'react';
-import Hero from '../components/Hero';
-
-const Home: React.FC = () => {
-  return (
-    <div>
-      <Hero/>
-    </div>
-  );
-};
+import Hero from "../components/Hero";
 import Footer from "../components/Footer";
 
 function Home() {
-    return (
-        <Footer>
-        </Footer>
+    return (<>
+        <Hero/>
+        <Footer/>
+    </>
+
     )
 }
 
