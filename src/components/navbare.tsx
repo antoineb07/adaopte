@@ -25,7 +25,7 @@ export default function NavBare() {
             <LuFish className="mr-2 p-0.001 text-2xl " />
             Guide d'adoption
           </Link>
-          <Link to="" className="benevole flex items-center">
+          <Link to="/volontariat" className="benevole flex items-center">
             <LuSquirrel className="mr-2 p-0.001 text-2xl " />
             Devenir benevole
           </Link>
