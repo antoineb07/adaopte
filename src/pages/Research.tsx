@@ -1,6 +1,9 @@
+
+import Footer from "../components/Footer";
+
 function Research () {
     return (
-        <div></div>
+        <Footer></Footer>
     )
 }
 
