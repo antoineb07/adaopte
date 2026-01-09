@@ -1,5 +1,5 @@
 import Footer from "../components/Footer";
-import NavBare from "../components/navbare";
+import NavBare from "../components/Navbare";
 
 function Research() {
   return (

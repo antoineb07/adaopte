@@ -5,10 +5,10 @@ import { LuFish } from "react-icons/lu";
 import { LuSquirrel } from "react-icons/lu";
 export default function NavBare() {
   return (
-    <nav className="navbare bg-[#fffaf7] flex gap-y-10 justify-between py-1">
+    <nav className="navbare bg-primary flex gap-y-10 justify-between py-1">
       <div className="logo scale-50 flex justify-start">
         <Link to="/">
-          <img src="/icon_navbare.png" alt="Logo" />
+          <img src="images/icon_navbare.png" alt="Logo" />
         </Link>
       </div>
       <div className="style-navbare flex gap-x-6 items-center ">
@@ -30,7 +30,7 @@ export default function NavBare() {
             Devenir benevole
           </Link>
         </div>
-        <div className="don bg-[#e74b3c] text-white font-bold py-2 px-4 rounded-full mr-10">
+        <div className="don bg-btn-secondary text-white font-bold py-2 px-4 rounded-full mr-10">
           <Link to="/">Faire un don🫶</Link>
         </div>
       </div>
