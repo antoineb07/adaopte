@@ -1,3 +1,4 @@
+import Button from "./Button";
 import { Link } from "react-router-dom";
 import { FiHome } from "react-icons/fi";
 import { LuBone } from "react-icons/lu";
@@ -30,9 +31,8 @@ export default function NavBare() {
             Devenir benevole
           </Link>
         </div>
-        <div className="don bg-btn-secondary text-white font-bold py-2 px-4 rounded-full mr-10">
-          <Link to="/">Faire un don🫶</Link>
-        </div>
+        <Button variant="secondary" size="lg" >Faire un don 🫶</Button>
+
       </div>
     </nav>
   );
