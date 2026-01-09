@@ -1,11 +1,13 @@
 import data from "../data/data.json";
 import type { Animal } from "../types/Animal";
+import Button from "./Button";
+import { Link } from "react-router-dom";
 
 const animals: Animal[] = data;
 
 export default function Masonry() {
   return (
-    <div className="flex items-center justify-center p-8 bg-primary">
+    <div className="flex flex-col items-center justify-center p-8 bg-primary">
       <div className="grid grid-cols-4 gap-4">
         <div className="space-y-4">
           <div className="w-80 h-150 overflow-hidden rounded-lg">
@@ -74,6 +76,12 @@ export default function Masonry() {
             />
           </div>
         </div>
+      </div>
+
+      <div className="mt-8">
+        <Link to="/research">
+          <Button variant="primary">Voir tous les animaux</Button>
+        </Link>
       </div>
     </div>
   );

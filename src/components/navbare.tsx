@@ -31,7 +31,7 @@ export default function NavBare() {
             Devenir benevole
           </Link>
         </div>
-        <Button variant="secondary" size="lg" >Faire un don 🫶</Button>
+        <Button variant="secondary" size="lg" className="">Faire un don 🫶</Button>
 
       </div>
     </nav>
