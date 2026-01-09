@@ -13,7 +13,7 @@ export default function NavBare() {
       </div>
       <div className="style-navbare flex gap-x-6 items-center ">
         <div className="style-links flex items-center justify-center gap-x-6 pr-80 font-bold text-xl">
-          <Link to="/home" className="homme flex items-center ">
+          <Link to="/home" className="home flex items-center ">
             <FiHome className="mr-2 p-0.001 text-2xl " />
             Accueil
           </Link>
