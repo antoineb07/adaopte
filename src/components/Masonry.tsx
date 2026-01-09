@@ -14,7 +14,7 @@ export default function Masonry() {
             <img
               src={animals[0].imageUrl}
               alt=""
-              className="w-full h-full object-cover"
+              className="w-full h-full object-cover rounded-lg"
             />
           </div>
           <div className="w-80 h-80 overflow-hidden rounded-lg">
