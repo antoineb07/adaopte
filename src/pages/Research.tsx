@@ -1,10 +1,10 @@
 import Footer from "../components/Footer";
-import NavBare from "../components/Navbare";
+import NavBar from "../components/Navbar";
 
 function Research() {
   return (
     <>
-      <NavBare />
+      <NavBar />
 
       <Footer />
     </>

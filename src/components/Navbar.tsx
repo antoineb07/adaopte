@@ -4,7 +4,7 @@ import { FiHome } from "react-icons/fi";
 import { LuBone } from "react-icons/lu";
 import { LuFish } from "react-icons/lu";
 import { LuSquirrel } from "react-icons/lu";
-export default function NavBare() {
+export default function NavBar() {
   return (
     <nav className="navbare bg-primary flex gap-y-10 justify-between py-1">
       <div className="logo scale-50 flex justify-start">
