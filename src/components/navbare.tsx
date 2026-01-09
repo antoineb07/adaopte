@@ -30,7 +30,7 @@ export default function NavBare() {
             Devenir benevole
           </Link>
         </div>
-        <div className="don bg-[#e74b3c] text-white font-bold py-2 px-4 rounded-full mr-10">
+        <div className="don bg-btn-secondary text-white font-bold py-2 px-4 rounded-full mr-10">
           <Link to="/">Faire un don🫶</Link>
         </div>
       </div>
