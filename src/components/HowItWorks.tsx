@@ -4,7 +4,7 @@ export default function HowItWorks() {
       <h2 className="title font-heading items-center flex justify-center text-6xl">
         Comment ça marche ?
       </h2>
-      <p className="texte font-heading text-center text-xl">
+      <p className="texte text-center text-xl  text-deep-grey">
         adopter un animal est un engagement sérieux et a long terme. voici notre
         processus d'adoption en <br />
         quelques étapes simples.
