@@ -8,7 +8,7 @@ export default function NavBare() {
     <nav className="navbare bg-[#fffaf7] flex gap-y-10 justify-between py-1">
       <div className="logo scale-50 flex justify-start">
         <Link to="/">
-          <img src="/icon_navbare.png" alt="Logo" />
+          <img src="images/icon_navbare.png" alt="Logo" />
         </Link>
       </div>
       <div className="style-navbare flex gap-x-6 items-center ">
