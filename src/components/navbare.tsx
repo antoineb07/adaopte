@@ -5,7 +5,7 @@ import { LuFish } from "react-icons/lu";
 import { LuSquirrel } from "react-icons/lu";
 export default function NavBare() {
   return (
-    <nav className="navbare bg-[#fffaf7] flex gap-y-10 justify-between py-1">
+    <nav className="navbare bg-primary flex gap-y-10 justify-between py-1">
       <div className="logo scale-50 flex justify-start">
         <Link to="/">
           <img src="images/icon_navbare.png" alt="Logo" />

@@ -5,7 +5,7 @@ const animals: Animal[] = data;
 
 export default function Masonry() {
   return (
-    <div className="flex items-center justify-center p-8">
+    <div className="flex items-center justify-center p-8 bg-primary">
       <div className="grid grid-cols-4 gap-4">
         <div className="space-y-4">
           <div className="w-80 h-150 overflow-hidden rounded-lg">
