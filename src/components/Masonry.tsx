@@ -14,7 +14,7 @@ export default function Masonry() {
             <img
               src={animals[0].imageUrl}
               alt=""
-              className="w-full h-full object-cover rounded-lg"
+              className="w-full h-full object-cover"
             />
           </div>
           <div className="w-80 h-80 overflow-hidden rounded-lg">
@@ -79,10 +79,10 @@ export default function Masonry() {
       </div>
 
       <div className="mt-8">
-        <Link to="/research">
-          <Button variant="primary">Voir tous les animaux</Button>
-        </Link>
-      </div>
+  <Link to="/research">
+    <Button variant="primary">Voir tous les animaux</Button>
+  </Link>
+</div>
     </div>
   );
 }
