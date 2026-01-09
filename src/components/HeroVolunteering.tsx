@@ -2,7 +2,7 @@ export default function HeroVolunteering() {
   return (
     <section
       aria-label="Section principale de présentation"
-      className="relative h-125 w-full bg-[url('/alin-luna-8LfPXM6abRk-unsplash.jpg')] bg-cover bg-center bg-no-repeat py-24"
+      className="relative h-125 w-full bg-[url('./images/alin-luna-8LfPXM6abRk-unsplash.jpg')] bg-cover bg-center bg-no-repeat py-24"
     >
       <div className="absolute inset-0 bg-black/30" />
 
