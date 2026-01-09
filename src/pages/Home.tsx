@@ -3,6 +3,7 @@ import Footer from "../components/Footer";
 import NavBar from "../components/Navbar";
 import Masonry from "../components/Masonry";
 import HowItWorks from "../components/HowItWorks";
+import ReadyToALife from "../components/ReadyToALife";
 
 function Home() {
   return (
@@ -11,6 +12,7 @@ function Home() {
       <Hero />
       <Masonry />
       <HowItWorks />
+      <ReadyToALife />
       <Footer />
     </>
   );
