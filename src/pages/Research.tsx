@@ -4,6 +4,7 @@ import Footer from "../components/Footer";
 import NavBar from "../components/Navbar";
 import SearchBar from "../components/SearchBar";
 import AnimalCard from "../components/AnimalCard";
+import Pagination from "../components/pagination";
 import data from "../data/data.json";
 import type { Animal } from "../types/Animal";
 
@@ -17,6 +18,9 @@ function Research() {
   
   const [animalType, setAnimalType] = useState(typeParam);
   const [location, setLocation] = useState(locationParam);
+  const [currentPage, setCurrentPage] = useState(1);
+  
+  const ITEMS_PER_PAGE = 8;
 
   const filteredAnimals = animals.filter(animal => {
     const matchesType = animalType === 'Tous les animaux' || animal.type === animalType;
@@ -24,14 +28,30 @@ function Research() {
     return matchesType && matchesLocation;
   });
 
+  // Calculer le nombre total de pages
+  const totalPages = Math.ceil(filteredAnimals.length / ITEMS_PER_PAGE);
+
+  // Obtenir les animaux pour la page actuelle
+  const startIndex = (currentPage - 1) * ITEMS_PER_PAGE;
+  const endIndex = startIndex + ITEMS_PER_PAGE;
+  const currentAnimals = filteredAnimals.slice(startIndex, endIndex);
+
   const handleSearch = (type: string, loc: string) => {
     setAnimalType(type);
     setLocation(loc);
+    setCurrentPage(1); // Réinitialiser à la page 1 lors d'une nouvelle recherche
   };
 
   const resetFilters = () => {
     setAnimalType('Tous les animaux');
     setLocation('');
+    setCurrentPage(1);
+  };
+
+  const handlePageChange = (page: number) => {
+    setCurrentPage(page);
+    // Scroll vers le haut lors du changement de page
+    window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
   return (
@@ -51,11 +71,20 @@ function Research() {
       <div className="flex-1 bg-primary">
         <div className="max-w-7xl mx-auto px-4 py-12">
           {filteredAnimals.length > 0 ? (
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-              {filteredAnimals.map(animal => (
-                <AnimalCard key={animal.id} animal={animal} />
-              ))}
-            </div>
+            <>
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                {currentAnimals.map(animal => (
+                  <AnimalCard key={animal.id} animal={animal} />
+                ))}
+              </div>
+              
+              {/* Pagination */}
+              <Pagination 
+                currentPage={currentPage}
+                totalPages={totalPages}
+                onPageChange={handlePageChange}
+              />
+            </>
           ) : (
             <div className="text-center py-20">
               <p className="text-xl text-deep-grey">
