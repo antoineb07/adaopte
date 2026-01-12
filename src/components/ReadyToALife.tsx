@@ -14,12 +14,12 @@ export default function ReadyToALife() {
       </p>
       <nav className="btn flex justify-center gap-6">
         <div className="btnadop">
-          <Link to="/adoption">
+          <Link to="/research">
             <Button variant="primary">Adopter un animal</Button>
           </Link>
         </div>
         <div className="btnDon">
-          <Link to="/don">
+          <Link to="">
             <Button variant="secondary">Faire un don 🫶</Button>
           </Link>
         </div>
