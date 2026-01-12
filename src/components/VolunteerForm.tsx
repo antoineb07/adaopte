@@ -2,7 +2,7 @@ export default function VolunteerForm() {
   return (
     <div className="px-4 pb-12">
       <div className="max-w-2xl mx-auto">
-        <div className="bg-light rounded-2xl shadow-xl p-8 md:p-10">
+        <div className="bg-white rounded-2xl shadow-xl p-8 md:p-10">
           <h2 className="text-3xl md:text-4xl font-bold text-center mb-3 text-heading font-heading uppercase">
             Formulaire d'inscription
           </h2>
