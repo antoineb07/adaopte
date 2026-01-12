@@ -37,7 +37,7 @@ export default function Footer() {
             INFORMATIONS UTILES
           </h2>
           <ul className="space-y-1 md:space-y-3 text-light-grey text-[8px] md:text-base md:leading-relaxed">
-            <li>FAQS</li>
+            <li>FAQs</li>
             <li>Conseils d'adoption</li>
             <li>Nous contacter</li>
             <li>Mentions légales</li>

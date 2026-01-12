@@ -86,5 +86,115 @@
     "zipcode": "74400",
     "description": "Ruby est une boule de neige pleine d’amour ! Elle adore les promenades et les câlins par temps frais.",
     "imageUrl": "/images/peri-stojnic-5Vr_RVPfbMI-unsplash.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Max",
+    "age": "4 ans",
+    "breed": "Border Collie",
+    "type": "Chien",
+    "city": "Grenoble",
+    "zipcode": "38000",
+    "description": "Max est un chien très intelligent et dynamique qui adore apprendre de nouveaux tours et courir en plein air.",
+    "imageUrl": "/images/dog_herding_dog_shepherd-1380075.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Plume",
+    "age": "2 ans",
+    "breed": "Lapin nain",
+    "type": "Lapin",
+    "city": "Dijon",
+    "zipcode": "21000",
+    "description": "Plume est un lapin curieux et doux qui aime explorer son environnement et se faire caresser.",
+    "imageUrl": "/images/dwarf_rabbit_rabbit_hare_young_animal_rodent_animal_husbandry_cute-943493.jpg"
+  },
+  {
+    "id": 11,
+    "name": "Noisette",
+    "age": "1 an",
+    "breed": "Hamster doré",
+    "type": "Rongeur",
+    "city": "Tours",
+    "zipcode": "37000",
+    "description": "Noisette est un petit hamster actif, surtout la nuit, qui adore creuser et stocker sa nourriture.",
+    "imageUrl": "/images/pexels-sharon-snider-2339082-4520484.jpg"
+  },
+  {
+    "id": 12,
+    "name": "Olive",
+    "age": "6 ans",
+    "breed": "Chartreux",
+    "type": "Chat",
+    "city": "Poitiers",
+    "zipcode": "86000",
+    "description": "Olive est un chat calme et affectueux, très attaché à la tranquillité et aux moments de repos.",
+    "imageUrl": "/images/pexels-inceon-1676915.jpg"
+  },
+  {
+    "id": 13,
+    "name": "Cookie",
+    "age": "3 ans",
+    "breed": "Cochon d’Inde",
+    "type": "Rongeur",
+    "city": "Clermont-Ferrand",
+    "zipcode": "63000",
+    "description": "Cookie est sociable et expressif, il communique souvent avec de petits couinements adorables.",
+    "imageUrl": "/images/pexels-ahmetyuksek-35587820.jpg"
+  },
+  {
+    "id": 14,
+    "name": "Ruby",
+    "age": "5 ans",
+    "breed": "Cavalier King Charles",
+    "type": "Chien",
+    "city": "Angers",
+    "zipcode": "49000",
+    "description": "Ruby est une chienne très affectueuse, parfaite pour une vie de famille et les moments câlins.",
+    "imageUrl": "/images/dog_spaniel_pet_puppy_canine-68817.jpg"
+  },
+  {
+    "id": 15,
+    "name": "Flocon",
+    "age": "2 ans",
+    "breed": "Lapin bélier",
+    "type": "Lapin",
+    "city": "Chambéry",
+    "zipcode": "73000",
+    "description": "Flocon est un lapin paisible et gourmand qui apprécie le calme et la douceur.",
+    "imageUrl": "/images/rabbit_snow_animal_pet_fur_nager_clean_cold-767071.jpg"
+  },
+  {
+    "id": 16,
+    "name": "Pixel",
+    "age": "4 ans",
+    "breed": "Souris domestique",
+    "type": "Rongeur",
+    "city": "Limoges",
+    "zipcode": "87000",
+    "description": "Pixel est une petite souris vive et curieuse, toujours en mouvement dans son habitat.",
+    "imageUrl": "/images/domestic_animal_rodent_gerbil_curious-549566.jpg"
+  },
+  {
+    "id": 17,
+    "name": "Shadow",
+    "age": "7 ans",
+    "breed": "Norvégien",
+    "type": "Chat",
+    "city": "Metz",
+    "zipcode": "57000",
+    "description": "Shadow est un chat majestueux et indépendant, mais très fidèle à ses proches.",
+    "imageUrl": "/images/cat_sweet_kitty_animals-974997.jpg"
+  },
+  {
+    "id": 18,
+    "name": "Buddy",
+    "age": "3 ans",
+    "breed": "Beagle",
+    "type": "Chien",
+    "city": "Orléans",
+    "zipcode": "45000",
+    "description": "Buddy est joyeux et joueur, toujours partant pour une promenade ou une séance de jeu.",
+    "imageUrl": "/images/beagle_puppy_beagle_hound_dog_canine_purebred_doggy-1159130.jpg"
   }
 ]

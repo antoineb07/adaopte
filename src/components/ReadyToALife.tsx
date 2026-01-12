@@ -10,17 +10,17 @@ export default function ReadyToALife() {
       <p className="texte   text-deep-grey  text-center text-xl pb-10">
         Adoptez, parrainez, soutenez. Chaque geste compte. Que vous ouvriez
         votre porte ou votre coeur,
-        <br /> vous pouvez offrir une seconde chance à un animal abandonné
+        <br /> vous pouvez offrir une seconde chance à un animal abandonné.
       </p>
       <nav className="btn flex justify-center gap-6">
         <div className="btnadop">
-          <Link to="/adoption">
+          <Link to="/research">
             <Button variant="primary">Adopter un animal</Button>
           </Link>
         </div>
         <div className="btnDon">
-          <Link to="/don">
-            <Button variant="secondary">Faire un don🫶</Button>
+          <Link to="">
+            <Button variant="secondary">Faire un don 🫶</Button>
           </Link>
         </div>
         <div className="btnVolunteering">
