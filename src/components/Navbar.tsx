@@ -8,9 +8,9 @@ export default function NavBar() {
   return (
     <nav className="navbare bg-primary flex gap-y-10 justify-between py-1">
       <div className="logo scale-50 flex justify-start">
-        <Link to="/">
-          <img src="images/icon_navbare.png" alt="Logo" />
-        </Link>
+        <h1 className="text-7xl font-bold">
+          🐾 Ada<span className="text-btn-secondary">opte</span>
+        </h1>
       </div>
       <div className="style-navbare flex gap-x-6 items-center ">
         <div className="style-links flex items-center justify-center gap-x-6 pr-80 font-bold text-xl">
@@ -26,9 +26,9 @@ export default function NavBar() {
             <LuFish className="mr-2 p-0.001 text-2xl " />
             Guide d'adoption
           </Link>
-          <Link to="/volontariat" className="benevole flex items-center">
+          <Link to="/volontariat" className="bénévole flex items-center">
             <LuSquirrel className="mr-2 p-0.001 text-2xl " />
-            Devenir benevole
+            Devenir bénévole
           </Link>
         </div>
         <Button variant="secondary" size="lg" className="btnDon mr-6">
