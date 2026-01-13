@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 export default function ReadyToALife() {
   return (
-    <nav className="ready-to-a-life pb-15 pt-10 bg-primary">
+    <nav className="ready-to-a-life pb-5 md:pb-15 md:pt-10 bg-primary">
       <h2 className="font-heading items-center flex justify-center text-xl md:text-6xl pb-10">
         PRÊT•E À CHANGER UNE VIE?
       </h2>
