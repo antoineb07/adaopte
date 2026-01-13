@@ -2,7 +2,7 @@
 import type { ButtonProps } from "../types/types";
 
 type ButtonVariant = "primary" | "secondary" | "accent";
-type ButtonSize = "sm" | "md" | "lg" | "xl";
+type ButtonSize = "sm" | "md" | "lg" | "xl" | "responsive";
 
 const variantClasses: Record<ButtonVariant, string> = {
   primary:
@@ -18,6 +18,7 @@ const sizeClasses: Record<ButtonSize, string> = {
   md: "px-4 py-2 text-base shadow-md",
   lg: "px-5 py-3 text-lg shadow-lg",
   xl: "px-6 py-4 text-xl shadow-xl",
+  responsive: "px-2 py-1 text-xs md:px-5 md:py-3 md:text-lg",
 };
 
 export default function Button({

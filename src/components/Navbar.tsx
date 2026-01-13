@@ -4,16 +4,18 @@ import { FiHome } from "react-icons/fi";
 import { LuBone } from "react-icons/lu";
 import { LuFish } from "react-icons/lu";
 import { LuSquirrel } from "react-icons/lu";
+
+
 export default function NavBar() {
   return (
-    <nav className="bg-primary flex gap-y-10 justify-between py-1">
-      <div className="scale-50 flex justify-start">
-        <h1 className="text-7xl font-bold">
-          🐾 Ada<span className="text-btn-secondary">opte</span>
-        </h1>
-      </div>
-      <div className="flex gap-x-6 items-center ">
-        <div className="flex items-center justify-center gap-x-6 pr-80 font-bold text-xl">
+    <nav className="hidden md:block">
+      <div className="flex justify-between items-center w-full p-6">
+        <div>
+          <h1 className="text-5xl font-bold">
+            🐾 Ada<span className="text-btn-secondary">opte</span>
+          </h1>
+        </div>
+        <div className=" flex-1 flex justify-center space-x-4 font-bold text-xl">
           <Link to="/home" className="flex items-center ">
             <FiHome className="mr-2 p-0.001 text-2xl " />
             Accueil
@@ -31,9 +33,11 @@ export default function NavBar() {
             Devenir bénévole
           </Link>
         </div>
-        <Button variant="secondary" size="lg" className="btnDon mr-6">
-          Faire un don 🫶
-        </Button>
+        <div>
+          <Button variant="secondary" size="lg" className="btnDon mr-6">
+            Faire un don 🫶
+          </Button>
+        </div>
       </div>
     </nav>
   );

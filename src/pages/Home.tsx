@@ -6,6 +6,8 @@ import Masonry from "../components/Masonry";
 import HowItWorks from "../components/HowItWorks";
 import ReadyToALife from "../components/ReadyToALife";
 import SearchBar from "../components/SearchBar";
+import BottomNav from "../components/BottomNav";
+import TopBarMobile from "../components/TopBarMobile";
 
 function Home() {
   const navigate = useNavigate();
@@ -17,6 +19,7 @@ function Home() {
   return (
     <>
       <NavBar />
+      <TopBarMobile />
       <Hero />
       
       {/* SearchBar positionnée sur le Hero */}
@@ -31,7 +34,9 @@ function Home() {
       <Masonry />
       <HowItWorks />
       <ReadyToALife />
+      <BottomNav />
       <Footer />
+      
     </>
   );
 }
