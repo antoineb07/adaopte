@@ -8,7 +8,8 @@
     "city": "Lille",
     "zipcode": "59000",
     "description": "Charlie est un petit chien calme et affectueux qui adore les balades tranquilles et les caresses sur le canapé.",
-    "imageUrl": "/images/charlesdeluvio-K4mSJ7kc0As-unsplash.jpg"
+    "imageUrl": "/images/charlesdeluvio-K4mSJ7kc0As-unsplash.jpg",
+    "alt": "Un petit chien Pug nommé Charlie"
   },
   {
     "id": 2,
@@ -19,7 +20,8 @@
     "city": "Strasbourg",
     "zipcode": "67000",
     "description": "Mia est une boule de tendresse curieuse et joueuse, toujours prête à ronronner près de vous.",
-    "imageUrl": "/images/manja-vitolic-gKXKBY-C-Dk-unsplash.jpg"
+    "imageUrl": "/images/manja-vitolic-gKXKBY-C-Dk-unsplash.jpg",
+    "alt": "Un chat noir et blanc nommé Mia"
   },
   {
     "id": 3,
@@ -30,7 +32,8 @@
     "city": "Annecy",
     "zipcode": "74000",
     "description": "Coco est un petit lapin plein d’énergie, très doux et parfait pour un foyer aimant et paisible.",
-    "imageUrl": "/images/chan-swan-NKyl19P5IHg-unsplash.jpg"
+    "imageUrl": "/images/chan-swan-NKyl19P5IHg-unsplash.jpg",
+    "alt": "Un lapin nommé Coco blanc et marron "
   },
   {
     "id": 4,
@@ -41,7 +44,8 @@
     "city": "Grenoble",
     "zipcode": "38000",
     "description": "Rex est un chien loyal et majestueux, idéal pour une personne douce et patiente qui aime les câlins silencieux.",
-    "imageUrl": "/images/alan-king-KZv7w34tluA-unsplash.jpg"
+    "imageUrl": "/images/alan-king-KZv7w34tluA-unsplash.jpg",
+    "alt": "Un chien Chow-chow nommé Rex marron "
   },
   {
     "id": 5,
@@ -52,7 +56,8 @@
     "city": "Bordeaux",
     "zipcode": "33000",
     "description": "Luna adore les coins ensoleillés et les siestes à vos côtés. Elle vous offrira tout l’amour d’un regard félin.",
-    "imageUrl": "/images/jae-park-7GX5aICb5i4-unsplash.jpg"
+    "imageUrl": "/images/jae-park-7GX5aICb5i4-unsplash.jpg",
+    "alt": "Un chat tigret nommé Luna"
   },
   {
     "id": 6,
@@ -63,7 +68,8 @@
     "city": "Tours",
     "zipcode": "37000",
     "description": "Biscuit est tout petit mais plein de vie ! Il aime les légumes croquants et les instants de douceur en famille.",
-    "imageUrl": "/images/yosei-g-OVgE3m4MHKM-unsplash.jpg"
+    "imageUrl": "/images/yosei-g-OVgE3m4MHKM-unsplash.jpg",
+    "alt": "Un cochon d'Inde nommé Biscuit blanc et marron"
   },
   {
     "id": 7,
@@ -74,7 +80,8 @@
     "city": "Poitiers",
     "zipcode": "86000",
     "description": "Rio est discret, mignon comme tout, et adore explorer les petits coins de la maison avec délicatesse.",
-    "imageUrl": "/images/melanie-kreutz-IFnknR2Mv5o-unsplash.jpg"
+    "imageUrl": "/images/melanie-kreutz-IFnknR2Mv5o-unsplash.jpg",
+    "alt": "Un lapin nain nommé Rio marron"
   },
   {
     "id": 8,
@@ -85,7 +92,8 @@
     "city": "Chamonix",
     "zipcode": "74400",
     "description": "Ruby est une boule de neige pleine d’amour ! Elle adore les promenades et les câlins par temps frais.",
-    "imageUrl": "/images/peri-stojnic-5Vr_RVPfbMI-unsplash.jpg"
+    "imageUrl": "/images/peri-stojnic-5Vr_RVPfbMI-unsplash.jpg",
+    "alt": "Un chien Samoyed blanc nommé Ruby "
   },
   {
     "id": 9,
@@ -96,7 +104,8 @@
     "city": "Grenoble",
     "zipcode": "38000",
     "description": "Max est un chien très intelligent et dynamique qui adore apprendre de nouveaux tours et courir en plein air.",
-    "imageUrl": "/images/dog_herding_dog_shepherd-1380075.jpg"
+    "imageUrl": "/images/dog_herding_dog_shepherd-1380075.jpg",
+    "alt": "Un chien Border Collie nommé Max noir et marron"
   },
   {
     "id": 10,
@@ -107,7 +116,8 @@
     "city": "Dijon",
     "zipcode": "21000",
     "description": "Plume est un lapin curieux et doux qui aime explorer son environnement et se faire caresser.",
-    "imageUrl": "/images/dwarf_rabbit_rabbit_hare_young_animal_rodent_animal_husbandry_cute-943493.jpg"
+    "imageUrl": "/images/dwarf_rabbit_rabbit_hare_young_animal_rodent_animal_husbandry_cute-943493.jpg",
+    "alt": "Un lapin nain nommé Plume gris"
   },
   {
     "id": 11,
@@ -118,7 +128,8 @@
     "city": "Tours",
     "zipcode": "37000",
     "description": "Noisette est un petit hamster actif, surtout la nuit, qui adore creuser et stocker sa nourriture.",
-    "imageUrl": "/images/pexels-sharon-snider-2339082-4520484.jpg"
+    "imageUrl": "/images/pexels-sharon-snider-2339082-4520484.jpg",
+    "alt": "Un hamster doré nommé Noisette"
   },
   {
     "id": 12,
@@ -129,7 +140,8 @@
     "city": "Poitiers",
     "zipcode": "86000",
     "description": "Olive est un chat calme et affectueux, très attaché à la tranquillité et aux moments de repos.",
-    "imageUrl": "/images/pexels-inceon-1676915.jpg"
+    "imageUrl": "/images/pexels-inceon-1676915.jpg",
+    "alt": "Un chat Chartreux nommé Olive gris"
   },
   {
     "id": 13,
@@ -140,7 +152,8 @@
     "city": "Clermont-Ferrand",
     "zipcode": "63000",
     "description": "Cookie est sociable et expressif, il communique souvent avec de petits couinements adorables.",
-    "imageUrl": "/images/pexels-ahmetyuksek-35587820.jpg"
+    "imageUrl": "/images/pexels-ahmetyuksek-35587820.jpg",
+    "alt": "Un cochon d’Inde nommé Cookie blanc, marron et noir "
   },
   {
     "id": 14,
@@ -151,7 +164,8 @@
     "city": "Angers",
     "zipcode": "49000",
     "description": "Ruby est une chienne très affectueuse, parfaite pour une vie de famille et les moments câlins.",
-    "imageUrl": "/images/dog_spaniel_pet_puppy_canine-68817.jpg"
+    "imageUrl": "/images/dog_spaniel_pet_puppy_canine-68817.jpg",
+    "alt": "Une chienne Cavalier King Charles nommée Ruby marron"
   },
   {
     "id": 15,
@@ -162,7 +176,8 @@
     "city": "Chambéry",
     "zipcode": "73000",
     "description": "Flocon est un lapin paisible et gourmand qui apprécie le calme et la douceur.",
-    "imageUrl": "/images/rabbit_snow_animal_pet_fur_nager_clean_cold-767071.jpg"
+    "imageUrl": "/images/rabbit_snow_animal_pet_fur_nager_clean_cold-767071.jpg",
+    "alt": "Un lapin bélier nommé Flocon marron"
   },
   {
     "id": 16,
@@ -173,7 +188,8 @@
     "city": "Limoges",
     "zipcode": "87000",
     "description": "Pixel est une petite souris vive et curieuse, toujours en mouvement dans son habitat.",
-    "imageUrl": "/images/domestic_animal_rodent_gerbil_curious-549566.jpg"
+    "imageUrl": "/images/domestic_animal_rodent_gerbil_curious-549566.jpg",
+    "alt": "Une souris domestique grise nommée Pixel"
   },
   {
     "id": 17,
@@ -184,7 +200,8 @@
     "city": "Metz",
     "zipcode": "57000",
     "description": "Shadow est un chat majestueux et indépendant, mais très fidèle à ses proches.",
-    "imageUrl": "/images/cat_sweet_kitty_animals-974997.jpg"
+    "imageUrl": "/images/cat_sweet_kitty_animals-974997.jpg",
+    "alt": "Un chat Norvégien blanc et roux nommé Shadow"
   },
   {
     "id": 18,
@@ -195,6 +212,7 @@
     "city": "Orléans",
     "zipcode": "45000",
     "description": "Buddy est joyeux et joueur, toujours partant pour une promenade ou une séance de jeu.",
-    "imageUrl": "/images/beagle_puppy_beagle_hound_dog_canine_purebred_doggy-1159130.jpg"
+    "imageUrl": "/images/beagle_puppy_beagle_hound_dog_canine_purebred_doggy-1159130.jpg",
+    "alt": "Un chien Beagle nommé Buddy marron, blanc et noir"
   }
 ]
