@@ -80,7 +80,7 @@ export default function Masonry() {
 
       <div className="mt-8">
         <Link to="/research">
-          <Button variant="primary">Voir tous les animaux</Button>
+          <Button variant="primary" size="responsive">Voir tous les animaux</Button>
         </Link>
       </div>
     </div>
