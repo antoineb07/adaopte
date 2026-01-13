@@ -25,17 +25,17 @@ export default function SearchBar({
   return (
     <div className="px-4 py-8">
       <div className="max-w-4xl mx-auto">
-        <div className="bg-white rounded-xl p-6 shadow-lg border border-gray-200">
+        <div className="bg-white rounded-xl p-4 md:p-6 shadow-lg border border-gray-200">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4 items-end">
             <div>
-              <label htmlFor="animal-type" className="block text-sm font-medium text-gray-700 mb-1.5">
+              <label htmlFor="animal-type" className="block text-xs md:text-sm font-medium text-gray-700 mb-1.5">
                 Type d'animal
               </label>
               <select
                 id="animal-type"
                 value={animalType}
                 onChange={(e) => setAnimalType(e.target.value)}
-                className="w-full px-3 py-2.5 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-secondary focus:border-transparent bg-white text-gray-800 text-sm"
+                className="w-full px-3 py-2.5 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-secondary focus:border-transparent bg-white text-gray-800 text-xs md:text-sm"
               >
                 <option>Tous les animaux</option>
                 <option>Chien</option>
@@ -45,7 +45,7 @@ export default function SearchBar({
               </select>
             </div>
             <div>
-              <label htmlFor="location" className="block text-sm font-medium text-gray-700 mb-1.5">
+              <label htmlFor="location" className="block text-xs md:text-sm font-medium text-gray-700 mb-1.5">
                 Localisation
               </label>
               <input
@@ -54,7 +54,7 @@ export default function SearchBar({
                 value={location}
                 onChange={(e) => setLocation(e.target.value)}
                 placeholder="Votre ville"
-                className="w-full px-3 py-2.5 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-secondary focus:border-transparent text-gray-800 text-sm placeholder-gray-400"
+                className="w-full px-3 py-2.5 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-secondary focus:border-transparent text-gray-800 text-xs md:text-sm placeholder-gray-400"
               />
             </div>
             <div>
@@ -62,7 +62,7 @@ export default function SearchBar({
                 variant="primary"
                 size="md"
                 onClick={handleSearch}
-                className="w-full text-sm gap-2"
+                className="w-full text-xs md:text-sm gap-2"
               >
                 Rechercher
                 <FiSearch size={18} />
@@ -73,12 +73,12 @@ export default function SearchBar({
         
         {showResultsCount && (
           <div className="flex justify-between items-center mt-4 px-1">
-            <p className="text-gray-700 font-medium text-sm">
+            <p className="text-gray-700 font-medium text-xs md:text-sm">
               {resultsCount} animaux trouvés
             </p>
             <button
               onClick={onResetFilters}
-              className="text-green-600 hover:text-green-700 font-medium text-sm"
+              className="text-green-600 hover:text-green-700 font-medium text-xs md:text-sm"
             >
               Réinitialiser les filtres
             </button>

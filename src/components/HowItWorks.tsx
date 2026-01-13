@@ -1,16 +1,16 @@
 export default function HowItWorks() {
   return (
     <nav className="howItWorks pb-8 pt-15 ">
-      <h2 className="title font-heading items-center flex justify-center text-6xl">
+      <h2 className="font-heading items-center flex justify-center text-xl md:text-6xl">
         Comment ça marche ?
       </h2>
-      <p className=" mx-auto max-w-3xl text-center text-xl text-deep-grey p-12 leading-relaxed">
+      <p className=" mx-auto max-w-3xl text-center text-xs md:text-xl text-deep-grey p-4 md:p-12 leading-relaxed">
         Adopter un animal est un engagement sérieux et à long terme. voici notre
         processus d'adoption en quelques étapes simples.
       </p>
-      <div className="Etape flex justify-between gap-3 align-center text-center mx-15 ">
-        <div className="etape1 shadow-lg p-10 m-10 rounded-lg">
-          <h3 className="emoji text-6xl mb-10">🔍</h3>
+      <div className="flex justify-between gap-3 align-center text-center mx-15 ">
+        <div className="shadow-lg p-10 m-10 rounded-lg">
+          <h3 className="text-6xl mb-10">🔍</h3>
           <h3 className=" mx-auto title-etape font-bold text-2xl mb-6">
             1. Trouver votre compagnon
           </h3>
@@ -19,8 +19,8 @@ export default function HowItWorks() {
             filtres pour trouver celui qui correspond à votre mode de vie.
           </p>
         </div>
-        <div className="etape2 shadow-lg p-10 m-10 rounded-lg">
-          <h3 className="emoji text-6xl mb-10">📝</h3>
+        <div className="shadow-lg p-10 m-10 rounded-lg">
+          <h3 className="text-6xl mb-10">📝</h3>
           <h3 className=" mx-auto title-etape font-bold text-2xl mb-6">
             2. Remplir une demande
           </h3>
@@ -29,8 +29,8 @@ export default function HowItWorks() {
             intéresse. Nous examinons chaque demande avec soin.
           </p>
         </div>
-        <div className="etape3 shadow-lg p-10 m-10 rounded-lg">
-          <h3 className="emoji text-6xl mb-10">👋</h3>
+        <div className="shadow-lg p-10 m-10 rounded-lg">
+          <h3 className="text-6xl mb-10">👋</h3>
           <h3 className=" mx-auto title-etape font-bold text-2xl mb-6">
             3. Rencontrez l'animal
           </h3>
@@ -39,8 +39,8 @@ export default function HowItWorks() {
             compatibles. C'est une étape essentielle du processus.
           </p>
         </div>
-        <div className="etape4 shadow-lg p-10 m-10 rounded-lg">
-          <h3 className="emoji text-6xl mb-10">🏠</h3>
+        <div className="shadow-lg p-10 m-10 rounded-lg">
+          <h3 className="text-6xl mb-10">🏠</h3>
           <h3 className=" mx-auto title-etape font-bold text-2xl mb-6">
             4. Bienvenue à la maison
           </h3>
