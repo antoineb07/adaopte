@@ -1,3 +1,6 @@
+import Button from "./Button";
+import { Link } from "react-router-dom";
+
 export default function VolunteerForm() {
   return (
     <div className="px-4 pb-12 pt-24 md:pt-0 ">
@@ -146,12 +149,11 @@ export default function VolunteerForm() {
 
             {/* Bouton de soumission */}
             <div className="flex justify-center pt-6">
-              <button
-                type="submit"
-                className="bg-btn-accent hover:bg-opacity-90 text-primary font-semibold py-3 px-10 rounded-full transition-all duration-200 shadow-lg hover:shadow-xl transform hover:-translate-y-0.5"
-              >
-                Envoyer ma candidature
-              </button>
+              <Link to="/research">
+                <Button variant="accent" size="responsive">
+                  Envoyer ma condidature
+                </Button>
+              </Link>
             </div>
           </form>
         </div>
