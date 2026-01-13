@@ -23,7 +23,7 @@ export default function AnimalCard({ animal }: AnimalCardProps) {
         <h3 className="text-xl font-bold text-accent mb-2">{animal.name}</h3>
         <p className="text-sm text-dark mb-1">{animal.breed} · {animal.age}</p>
         <p className="text-sm text-deep-grey mb-3">{animal.city}</p>
-        <p className="text-sm text-dark mb-4 line-clamp-2">{animal.description}</p>
+        <p className="text-sm text-dark mb-4 line-clamp-3">{animal.description}</p>
         <button onClick={handleClick} className="w-full bg-dark text-white py-2 px-4 rounded-lg hover:bg-gray-700 transition-colors">
           Rencontrer
         </button>
