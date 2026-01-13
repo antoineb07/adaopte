@@ -1,6 +1,8 @@
-import { useState } from 'react';
+import { useState, useMemo } from 'react';
 import Button from './Button';
 import { FiSearch } from 'react-icons/fi';
+import data from '../data/data.json';
+import type { Animal } from '../types/Animal';
 
 type SearchBarProps = {
   onSearch: (type: string, location: string) => void;
@@ -17,6 +19,14 @@ export default function SearchBar({
 }: SearchBarProps) {
   const [animalType, setAnimalType] = useState<string>('Tous les animaux');
   const [location, setLocation] = useState<string>('');
+
+  // Extraire les types uniques depuis le JSON
+  const animalTypes = useMemo(() => {
+    const animals: Animal[] = data;
+    const types = animals.map(animal => animal.type);
+    const uniqueTypes = Array.from(new Set(types)).sort();
+    return ['Tous les animaux', ...uniqueTypes];
+  }, []);
 
   const handleSearch = () => {
     onSearch(animalType, location);
@@ -37,11 +47,11 @@ export default function SearchBar({
                 onChange={(e) => setAnimalType(e.target.value)}
                 className="w-full px-3 py-2.5 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-secondary focus:border-transparent bg-white text-gray-800 text-sm"
               >
-                <option>Tous les animaux</option>
-                <option>Chien</option>
-                <option>Chat</option>
-                <option>Lapin</option>
-                <option>Rongeur</option>
+                {animalTypes.map((type) => (
+                  <option key={type} value={type}>
+                    {type}
+                  </option>
+                ))}
               </select>
             </div>
             <div>
