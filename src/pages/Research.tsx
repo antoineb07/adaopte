@@ -4,7 +4,7 @@ import Footer from "../components/Footer";
 import NavBar from "../components/Navbar";
 import SearchBar from "../components/SearchBar";
 import AnimalCard from "../components/AnimalCard";
-import Pagination from "../components/pagination";
+import Pagination from "../components/Pagination";
 import data from "../data/data.json";
 import type { Animal } from "../types/Animal";
 
