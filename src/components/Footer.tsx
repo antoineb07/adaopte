@@ -39,7 +39,8 @@ export default function Footer() {
           <ul className="space-y-1 md:space-y-3 text-light-grey text-[8px] md:text-base md:leading-relaxed">
             <li>FAQs</li>
             <li>Conseils d'adoption</li>
-            <li>Nous contacter</li>
+            <li>
+              <a href="mailto:contact@adaopte.fr"> Nous contacter</a></li>
             <li>Mentions légales</li>
           </ul>
         </div>
