@@ -11,9 +11,9 @@ export default function HowItWorks() {
      <div className="grid grid-cols-2 gap-3 md:flex md:justify-center md:gap-6">
 
 
-        <div className="shadow-lg p-3 md:p-10 md:m-10 rounded-lg">
-          <h3 className="md:text-6xl mb-2 md:mb-10 items-center">🔍</h3>
-          <h3 className=" mx-auto font-bold text-xs md:text-2xl mb-6">
+        <div className="shadow-lg p-3 md:p-10 md:m-10 rounded-lg text-center">
+          <h3 className="md:text-6xl mb-2 md:mb-10 items-center text-center">🔍</h3>
+          <h3 className=" mx-auto font-bold text-xs md:text-2xl mb-6 text-center">
             1. Trouver votre compagnon
           </h3>
           <p className="text-xs md:text-lg">
@@ -21,7 +21,7 @@ export default function HowItWorks() {
             filtres pour trouver celui qui correspond à votre mode de vie.
           </p>
         </div>
-    <div className="shadow-lg p-3 md:p-10 md:m-10 rounded-lg">
+    <div className="shadow-lg p-3 md:p-10 md:m-10 rounded-lg text-center">
           <h3 className="md:text-6xl mb-2 md:mb-10">📝</h3>
           <h3 className=" mx-auto title-etape font-bold text-xs md:text-2xl mb-6">
             2. Remplir une demande
@@ -31,7 +31,7 @@ export default function HowItWorks() {
             intéresse. Nous examinons chaque demande avec soin.
           </p>
         </div>
-        <div className="shadow-lg p-3 md:p-10 md:m-10 rounded-lg">
+        <div className="shadow-lg p-3 md:p-10 md:m-10 rounded-lg text-center">
           <h3 className="md:text-6xl mb-2 md:mb-10">👋</h3>
           <h3 className=" mx-auto title-etape font-bold text-xs md:text-2xl mb-6">
             3. Rencontrez l'animal
@@ -41,7 +41,7 @@ export default function HowItWorks() {
             compatibles. C'est une étape essentielle du processus.
           </p>
         </div>
-       <div className="shadow-lg p-3 md:p-10 md:m-10 rounded-lg">
+       <div className="shadow-lg p-3 md:p-10 md:m-10 rounded-lg text-center">
         <h3 className="md:text-6xl mb-2 md:mb-10">🏠</h3>
           <h3 className=" mx-auto title-etape font-bold text-xs md:text-2xl mb-6">
             4. Bienvenue à la maison

@@ -8,18 +8,18 @@ export default function BecomeVolunteer() {
         Être bénévole chez Adaopte, c'est bien plus qu'un coup de main : c'est un engagement du coeur, qui change des vies - humaines et animales.
       </p>
       <div className="grid grid-cols-2 gap-3 md:flex md:justify-center md:gap-6">
-        <div className="shadow-lg p-3 md:p-10 md:m-10 rounded-lg">
+        <div className="shadow-lg p-3 md:p-10 md:m-10 rounded-lg text-center">
           <h3 className="md:text-6xl mb-2 md:mb-10 items-center">🌱</h3>
           <h3 className="mx-auto font-bold text-xs md:text-2xl mb-6">
             Agir concrètement pour le bien être animal
           </h3>
           <p className="text-xs md:text-lg">
             Chaque geste compte : un regard, une caresse, une balade... Vous
-            contribuez à redonner confiance aux animaux abandonés et à leur
+            contribuez à redonner confiance aux animaux abandonnés et à leur
             offrir une seconde chance.
           </p>
         </div>
-        <div className="shadow-lg p-3 md:p-10 md:m-10 rounded-lg">
+        <div className="shadow-lg p-3 md:p-10 md:m-10 rounded-lg text-center">
           <h3 className="md:text-6xl mb-2 md:mb-10 items-center">🧠</h3>
           <h3 className="mx-auto font-bold text-xs md:text-2xl mb-6">
             Développer des
@@ -27,11 +27,11 @@ export default function BecomeVolunteer() {
           </h3>
          <p className="text-xs md:text-lg">
             Apprenez à mieux comprendre les comportements animaux, renforcez
-            votre patience, votre sens de l'observation et vitre capacité à
+            votre patience, votre sens de l'observation et votre capacité à
             prendre soin.
           </p>
         </div>
-        <div className="shadow-lg p-3 md:p-10 md:m-10 rounded-lg">
+        <div className="shadow-lg p-3 md:p-10 md:m-10 rounded-lg text-center">
           <h3 className="md:text-6xl mb-2 md:mb-10 items-center">👥</h3>
           <h3 className="mx-auto font-bold text-xs md:text-2xl mb-6">
             Rejoindre une communauté engagée
@@ -40,7 +40,7 @@ export default function BecomeVolunteer() {
             Intégrez un réseau solidaire de passionné・e・s, participez à des actions collectives et partagez des moments forts autour d'une cause essentielle.
           </p>
         </div>
-        <div className="shadow-lg p-3 md:p-10 md:m-10 rounded-lg">
+        <div className="shadow-lg p-3 md:p-10 md:m-10 rounded-lg text-center">
           <h3 className="md:text-6xl mb-2 md:mb-10 items-center">🌟</h3>
           <h3 className=" mx-auto font-bold text-xs md:text-2xl mb-6">
             Donner du sens à votre temps libre

@@ -12,7 +12,7 @@ export default function HeroVolunteering() {
         </h1>
 
         <p className="max-w-2xl text-xs md:text-base">
-          Offrez votre temps, changez des vies. Chez adaopte, chaque bénévole
+          Offrez votre temps, changez des vies. Chez Adaopte, chaque bénévole
           contribue à redonner espoir aux animaux en attente d'un foyer.
         </p>
       </div>
