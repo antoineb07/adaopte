@@ -27,7 +27,7 @@ export default function Testimony() {
             "J'ai commencé à m'occuper de Louna, une chienne timide arrivée au
             refuge. Petit à petit, elle m'a fait confiance. Aujourd'hui, elle a
             été adoptée, mais je garde un souvenir inoubliable de notre
-            complicité. Être bénévole chez Adaopte, c'est offir de l'amour... et
+            complicité. Être bénévole chez Adaopte, c'est offrir de l'amour... et
             en recevoir énormément."
           </p>
         </div>
@@ -50,7 +50,7 @@ export default function Testimony() {
           </div>
 
           <p className="italic text-xs md:text-lg">
-            "Je voulais m'investir concrètement pour une cause qui me tient à coeur. Avec Adaopte, j'ai découvert le refuge, les hisroires de chaque animal, et une équipe soudée. Marcher avec les chiens, jouer avec les chats, les voir progresser... C'est profondément gratifiant."
+            "Je voulais m'investir concrètement pour une cause qui me tient à coeur. Avec Adaopte, j'ai découvert le refuge, les histoires de chaque animal, et une équipe soudée. Marcher avec les chiens, jouer avec les chats, les voir progresser... C'est profondément gratifiant."
           </p>
         </div>
       </div>
