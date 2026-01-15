@@ -4,11 +4,15 @@ type PaginationProps = {
   onPageChange: (page: number) => void;
 };
 
-export default function Pagination({ currentPage, totalPages, onPageChange }: PaginationProps) {
+export default function Pagination({
+  currentPage,
+  totalPages,
+  onPageChange,
+}: PaginationProps) {
   // Générer les numéros de page à afficher
-  const getPageNumbers = () => {
+  const getPageNumbers = (): (number | string)[] => {
     const pages: (number | string)[] = [];
-    
+
     if (totalPages <= 5) {
       // Si 5 pages ou moins, afficher toutes les pages
       for (let i = 1; i <= totalPages; i++) {
@@ -19,12 +23,27 @@ export default function Pagination({ currentPage, totalPages, onPageChange }: Pa
       if (currentPage <= 3) {
         pages.push(1, 2, 3, 4, "...", totalPages);
       } else if (currentPage >= totalPages - 2) {
-        pages.push(1, "...", totalPages - 3, totalPages - 2, totalPages - 1, totalPages);
+        pages.push(
+          1,
+          "...",
+          totalPages - 3,
+          totalPages - 2,
+          totalPages - 1,
+          totalPages
+        );
       } else {
-        pages.push(1, "...", currentPage - 1, currentPage, currentPage + 1, "...", totalPages);
+        pages.push(
+          1,
+          "...",
+          currentPage - 1,
+          currentPage,
+          currentPage + 1,
+          "...",
+          totalPages
+        );
       }
     }
-    
+
     return pages;
   };
 
@@ -50,14 +69,22 @@ export default function Pagination({ currentPage, totalPages, onPageChange }: Pa
 
         {/* Numéros de page */}
         {getPageNumbers().map((page, index) => (
-          <li key={index}>
+          <li
+            key={
+              typeof page === "number" ? `page-${page}` : `ellipsis-${index}`
+            }
+          >
             {page === "..." ? (
               <span className="relative block px-4 py-2 text-sm text-gray-500">
                 ...
               </span>
             ) : (
               <button
-                onClick={() => onPageChange(page as number)}
+                onClick={() => {
+                  if (typeof page === "number") {
+                    onPageChange(page);
+                  }
+                }}
                 className={`relative block rounded px-4 py-2 text-sm font-medium transition-all duration-300 ${
                   currentPage === page
                     ? "bg-btn-secondary text-white"
