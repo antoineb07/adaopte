@@ -149,11 +149,12 @@ export default function VolunteerForm() {
 
             {/* Bouton de soumission */}
             <div className="flex justify-center pt-6">
-              <Link to="/research">
-                <Button variant="accent" size="responsive">
-                  Envoyer ma condidature
-                </Button>
-              </Link>
+               <button
+                type="submit"
+                className="bg-btn-accent hover:bg-opacity-90 text-primary font-semibold py-3 px-10 rounded-full transition-all duration-200 shadow-lg hover:shadow-xl transform hover:-translate-y-0.5"
+              >
+                Envoyer ma candidature
+              </button>
             </div>
           </form>
         </div>
