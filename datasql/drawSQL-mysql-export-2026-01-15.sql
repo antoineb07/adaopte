@@ -1,8 +1,8 @@
 CREATE TABLE `pets`(
-    `id` BIGINT UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY,
-    `shelter_id` BIGINT NOT NULL,
-    `pet_type_id` BIGINT NOT NULL,
-    `pet_picture_id` BIGINT NOT NULL,
+    `id` INT UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    `shelter_id` INT NOT NULL,
+    `pet_type_id` INT NOT NULL,
+    `pet_picture_id` INT NOT NULL,
     `name` VARCHAR(255) NOT NULL,
     `description` VARCHAR(255) NOT NULL,
     `age` INT NULL,
@@ -12,25 +12,25 @@ CREATE TABLE `pets`(
     `adopted_date` DATETIME NOT NULL
 );
 CREATE TABLE `pet_types`(
-    `id` BIGINT UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY,
-    `pet_breeds_id` BIGINT NOT NULL,
+    `id` INT UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    `pet_breeds_id` INT NOT NULL,
     `animal_type` VARCHAR(255) NOT NULL
 );
 CREATE TABLE `shelters`(
-    `id` BIGINT UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    `id` INT UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY,
     `city` VARCHAR(255) NOT NULL,
     `name` VARCHAR(255) NOT NULL,
     `address` VARCHAR(255) NOT NULL
 );
 CREATE TABLE `pet_pictures`(
-    `id` BIGINT UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    `id` INT UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY,
     `url_picture` VARCHAR(255) NOT NULL,
     `alt_picture` VARCHAR(255) NOT NULL,
     `description_picture` VARCHAR(255) NOT NULL
 );
 CREATE TABLE `adopters`(
-    `id` BIGINT UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY,
-    `pet_id` BIGINT NOT NULL,
+    `id` INT UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    `pet_id` INT NOT NULL,
     `first_name` VARCHAR(255) NOT NULL,
     `last_name` VARCHAR(255) NOT NULL,
     `email` VARCHAR(255) NOT NULL,
@@ -39,8 +39,8 @@ CREATE TABLE `adopters`(
 ALTER TABLE
     `adopters` ADD UNIQUE `adopters_email_unique`(`email`);
 CREATE TABLE `volunteers`(
-    `id` BIGINT UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY,
-    `shelter_id` BIGINT NOT NULL,
+    `id` INT UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    `shelter_id` INT NOT NULL,
     `first_name` VARCHAR(255) NOT NULL,
     `last_name` VARCHAR(255) NOT NULL,
     `email` VARCHAR(255) NOT NULL,
@@ -55,13 +55,13 @@ CREATE TABLE `volunteers`(
 ALTER TABLE
     `volunteers` ADD UNIQUE `volunteers_email_unique`(`email`);
 CREATE TABLE `pet_breeds`(
-    `id` BIGINT UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    `id` INT UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY,
     `breed` VARCHAR(255) NOT NULL
 );
 CREATE TABLE `adoption_status`(
-    `id` BIGINT UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY,
-    `adopter_id` BIGINT NOT NULL,
-    `pet_id` BIGINT NOT NULL,
+    `id` INT UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    `adopter_id` INT NOT NULL,
+    `pet_id` INT NOT NULL,
     `status` ENUM('ACCEPTED', 'DECLINED', 'WAITING') NOT NULL
 );
 ALTER TABLE
