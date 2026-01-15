@@ -4,7 +4,7 @@ import ResearchHeader from "../components/ResearchHeader";
 import ResearchContent from "../components/ResearchContent";
 import BottomNav from "../components/BottomNav";
 import TopBarMobile from "../components/TopBarMobile";
-import { useAnimalSearch } from "../types/UseAnimalSearch";
+import { useAnimalSearch } from "../hooks/UseAnimalSearch";
 
 export default function Research() {
   const {
