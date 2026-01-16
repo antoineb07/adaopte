@@ -1,73 +1,53 @@
-# React + TypeScript + Vite
+# 🐾 Adaopte
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Un projet frontend **React + TypeScript + Vite** pour créer une interface web moderne et performante.
 
-Currently, two official plugins are available:
+Ce dépôt contient une application web construite avec Vite, React et TypeScript, prête à être développée, testée et déployée rapidement. :contentReference[oaicite:1]{index=1}
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🚀 Démo
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+👉 Version déployée : https://adaopte-blue.vercel.app/ (configurée via Vercel) :contentReference[oaicite:2]{index=2}
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## 📌 Fonctionnalités
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+- Interface utilisateur SPA (Single-Page Application)
+- Routes avec React Router 
+- Composants réutilisables
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+---
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## 🧱 Technologies
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+| Technologie          | Version / Usage                          |
+|---------------------|-------------------------------------------|
+| React               | UI dynamique et déclarative              |
+| TypeScript          | Typage statique                          |
+| Vite                | Bundler ultra-rapide                     |
+| CSS / Tailwind / SCSS | (selon ce qui est utilisé)            |
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+
+---
+
+
+## 📁 Structure du projet
+
+├─ public/              
+├─ src/                  
+│   ├─ assets/          
+│   ├─ components/       
+│   ├─ pages/           
+│   ├─ styles/          
+│   └─ main.tsx          
+├─ .gitignore
+├─ index.html
+├─ package.json
+└─ vite.config.ts
+
+## 📄 Licence
+
+Ce projet est sous licence MIT — voir le fichier LICENSE si présent.
